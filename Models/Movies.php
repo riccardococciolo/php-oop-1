@@ -10,4 +10,8 @@ class movie {
         $this->year = $_year;
         $this->genres = $_genres;
     }
+
+    public function printMovie() {
+        echo "Title: {$this->title}, Year: {$this->year}, Genres: " . implode(", ", $this->genres);
+    }
 }
