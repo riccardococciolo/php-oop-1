@@ -15,3 +15,4 @@ class movie {
         echo "Title: {$this->title}, Year: {$this->year}, Genres: " . implode(", ", $this->genres);
     }
 }
+
